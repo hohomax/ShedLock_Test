@@ -1,4 +1,4 @@
-package com.example.scheduled.shcedlock.job;
+package com.example.scheduled.shedlock.job;
 
 import net.javacrumbs.shedlock.spring.annotation.SchedulerLock;
 import org.slf4j.Logger;

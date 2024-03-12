@@ -1,4 +1,4 @@
-package com.example.scheduled.shcedlock.config;
+package com.example.scheduled.shedlock.config;
 
 import net.javacrumbs.shedlock.core.LockProvider;
 import net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateLockProvider;
