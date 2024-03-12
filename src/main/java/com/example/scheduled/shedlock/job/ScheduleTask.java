@@ -17,8 +17,7 @@ public class ScheduleTask {
     @SchedulerLock(name = "ScheduledTask_run")
     public void runTask() throws InterruptedException{
 
-        System.out.println("task1"+ LocalDateTime.now());
-        wait(5000);
+        System.out.println("task1: "+ LocalDateTime.now());
 
 
     }
@@ -26,7 +25,6 @@ public class ScheduleTask {
     @SchedulerLock(name = "ScheduledTask_run")
     public void runTask2() throws InterruptedException{
 
-        System.out.println("task2"+  LocalDateTime.now());
-        wait(10000);
+        System.out.println("task2: "+  LocalDateTime.now());
     }
 }
