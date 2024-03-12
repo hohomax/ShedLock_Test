@@ -8,4 +8,4 @@
 * H2(Embedded DB)
 
 
-> - 멀티서버 환경을 가정하여 ShedLock 라이브러리를 이용하여 db테이블의 Lock을 활용해 job 중복 실행방지 테스트
+> - 멀티서버 환경을 가정하고 ShedLock 라이브러리를 이용하여 db테이블의 Lock 처리를 통해 job 중복 실행방지 테스트
